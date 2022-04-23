@@ -1,0 +1,40 @@
+<!doctype html>
+<html >
+    <head>
+        <title>Mood</title>
+        <meta charset="UTF-8">
+    </head>
+    <body style="text-align:center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-fNzu5dNUEcM87vNQS1pSR-b43ZcAIVBwsZBsPCiR7UB_EkTou7cgIALU--AshYsPhIM&usqp=CAU">
+		<h1><a id="msg"  href="# ">Waiting...</a></h1>
+        <Script>
+            var y = prompt("Enter a number from 1 to 10 :");
+      
+          if((y ==1)|| (y == 2) || (y == 3)){
+             document.getElementById('msg').innerHTML = "My mood is :  "+y  ; 
+             document.getElementById('msg').style.backgroundColor ="blue";
+             document.getElementById('msg').href = "https://thakkaha.dev.fast.sheridanc.on.ca/anim.htm?t=sad";
+            document.getElementsByTagName('img')[0].src = "https://www.cambridge.org/elt/blog/wp-content/uploads/2019/07/Sad-Face-Emoji.png";
+           
+        }
+            
+           
+          else if((y ==8)|| (y == 9) || (y == 10)){
+             
+          document.getElementById('msg').innerHTML = "My mood is :" + y ; 
+            document.getElementById('msg').style.backgroundColor ="orange";
+            document.getElementById('msg').href = "https://thakkaha.dev.fast.sheridanc.on.ca/anim.htm?t=happy";
+              document.getElementsByTagName('img')[0].src ="https://rlv.zcache.ca/super_happy_face_emoji_classic_round_sticker-rf039c01e5a2c423f8fb46c143c89837a_0ugmp_8byvr_540.jpg";  ;
+           
+
+          }
+          else{
+          document.getElementById('msg').innerHTML = "My mood is : " + y; 
+          document.getElementById('msg').href="https://thakkaha.dev.fast.sheridanc.on.ca/anim.htm?t=neutra"
+          document.getElementById('msg').style.backgroundColor ="gray";
+        }
+          
+            
+        </Script>
+    </body>
+</html>
